@@ -1,0 +1,243 @@
+body {
+	margin: 0;
+	min-width: 980px;
+	margin-top: 20px;
+	font-family: arial, sans_serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#navbox {
+	font-size: 13px;	
+}
+
+#nav {
+	min-width: 244px;
+	padding-left: 30px;
+	padding-right: 30px;
+	align-items: center;
+}
+
+.gi {
+	padding-right: 15px;
+	flex: 0 1 auto;
+	vertical-align: middle;
+	line-height: 24px;
+}
+
+.gm {
+	padding-left: 0;			
+}
+
+.im {
+	padding-left: 15px;
+}
+
+.appcnx {
+	flex: 1 1 auto;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.appbox {
+	position: relative;
+}
+
+.cnxbox {
+	padding: 0 0 0 15px;
+}
+
+.app {
+	height: 30px;
+	width: 30px;
+	padding-left: 0;
+	background-image: url(picgo.png);
+	background-size: 528px 68px;
+	background-position: -132px -38px;
+	opacity: .55;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.cnx {		
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
+	border: 1px solid #4285f4;
+	background: #4285f4;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.cnx:hover {
+	text-decoration: none;
+}
+
+#content {
+	padding-bottom: 137px;		
+}
+
+#goim {			
+	height: 233px;
+	text-align: center;
+}
+
+#searchbox {
+	padding-top: 6px;
+}
+
+#searchbar {
+	background: #fff;
+	display: flex;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	height: 44px;
+	margin: 0 auto;
+	width: 482px;
+}
+
+#searchbar:hover {
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+	border-color: rgba(223,225,229,0);
+}
+
+.searchint {
+	display: flex;
+	padding: 5px 8px 0 16px;
+	padding-left: 14px;
+}
+
+.loupebox {
+	display: flex;
+	padding-right: 13px;
+	margin-top: -5px;
+}
+
+.loupe {
+	margin: auto;
+}
+
+.imgloupe {
+	margin-top: 3px;
+	color: #9AA0A6;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	fill: currentColor;
+}
+
+.mid {
+	width: 387px;
+}
+
+.micbox {
+	display: flex;
+	margin-top: -5px;
+}
+
+.mic {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	padding: 0 8px;
+}
+
+.imgmic {
+	background: url(mic.png) 0 0 no-repeat;
+	background-size: 24px;
+	height: 24px;
+	width: 24px;
+}
+
+#bouttons {
+	height: 70px;
+	padding-top: 18px;
+}
+
+.bt {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	color: #5F6368;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	height: 36px;
+	cursor: pointer;
+}
+
+.bt:hover {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222;
+}
+
+#footersbox {
+	background: #f2f2f2;
+	min-width: 980px;
+	border-top: 1px solid #e4e4e4;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+#footers {
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.footup {
+	border-bottom: 1px solid #e4e4e4;
+	text-align: left;
+	color: rgba(0,0,0,.54);
+	padding-left: 27px;
+	font-size: 15px;
+}
+
+a.footup {
+	margin-left: 30px;
+}
+
+.footr {
+	margin-right: 30px;
+	float: right;
+	white-space: nowrap
+}
+
+.footl{
+	margin-right: 30px;
+	white-space: nowrap
+}
+
+.textdown {
+	padding-left: 27px;
+	color: #5f6368;
+	text-decoration: none;
+}
+
+
+/* Display des Div */
+
+.divflexre{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.divflex{
+	display: flex;
+}
+
+.divinb{
+	display: inline-block; 
+}
